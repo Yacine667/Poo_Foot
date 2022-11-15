@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.country1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,22,255);
+    background: linear-gradient(90deg, rgba(0,22,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,0,0,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+}
+
+.country2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,255,0,1) 45%, rgba(255,0,0,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+}
+
+.country3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+
+}
+
+.country4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(7,186,30);
+    background: linear-gradient(90deg, rgba(7,186,30,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+}
+
+.team1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,0,0);
+    background: linear-gradient(310deg, rgba(255,0,0,1) 0%, rgba(0,14,255,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+
+
+}
+
+.team2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,39,255);
+    background: linear-gradient(310deg, rgba(0,39,255,1) 0%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+    
+}
+
+.team3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,39,255);
+    background: linear-gradient(127deg, rgba(0,39,255,1) 0%, rgba(255,255,255,1) 46%, rgba(241,255,0,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}
+
+.team4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,39,255);
+    background: linear-gradient(84deg, rgba(0,39,255,1) 0%, rgba(255,0,0,1) 46%, rgba(249,255,0,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}
+
+.team5 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,0,0);
+    background: linear-gradient(84deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}
+
+.team6 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(84deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 46%, rgba(0,0,0,1) 100%);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}
+
+.player1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(151, 255, 176, 0.582);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+
+}
+
+.player2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(127, 255, 127, 0.442);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}
+
+.player3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 142, 127, 0.529);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}
+
+.player4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 0, 255, 0.429);
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+    overflow: hidden;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20%;
+    
+}

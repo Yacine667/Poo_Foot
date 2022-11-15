@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Poo Football</title>
 </head>
 <body>
@@ -43,29 +44,29 @@ $career7 = new Career($joueur3,$equipe4,'2013');
 $career8 = new Career($joueur3,$equipe1,'2017');
 
 
-
-$pays1->showCountry(); 
-$pays2->showCountry();
-$pays3->showCountry();
-$pays4->showCountry();
-
-
-
-$equipe1->showTeam();
-$equipe2->showTeam();
-$equipe3->showTeam();
-$equipe4->showTeam();
-$equipe5->showTeam();
-$equipe6->showTeam();
-
-
-
-$joueur1->showPlayer();
-$joueur2->showPlayer();
-$joueur3->showPlayer();
-$joueur4->showPlayer();
-
 ?>
+
+
+<div class="country1"> <?php     $pays1->showCountry();  ?>  </div>
+<div class="country2"> <?php     $pays2->showCountry();  ?>  </div>
+<div class="country3"> <?php     $pays3->showCountry();  ?>  </div>
+<div class="country4"> <?php     $pays4->showCountry();  ?>  </div>
+
+
+
+<div class="team1"> <?php $equipe1->showTeam(); ?>  </div>
+<div class="team2"> <?php $equipe2->showTeam(); ?>  </div>
+<div class="team3"> <?php $equipe3->showTeam(); ?>  </div>
+<div class="team4"> <?php $equipe4->showTeam(); ?>  </div>
+<div class="team5"> <?php $equipe5->showTeam(); ?>  </div>
+<div class="team6"> <?php $equipe6->showTeam(); ?>  </div>
+
+
+
+<div class="player1"> <?php $joueur1->showPlayer(); ?>  </div>
+<div class="player2"> <?php $joueur2->showPlayer(); ?>  </div>
+<div class="player3"> <?php $joueur3->showPlayer(); ?>  </div>
+<div class="player4"> <?php $joueur4->showPlayer(); ?>  </div>
 
 
     

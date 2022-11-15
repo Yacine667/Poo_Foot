@@ -48,7 +48,7 @@ class Country
 
     public function showCountry(){
 
-        echo  $this.'<br>';
+        echo $this.'<br>';
         foreach ($this->teams as $team) {
             echo $team.'<br>';        
         }       
