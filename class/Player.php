@@ -10,11 +10,11 @@ class Player
     private Country $country;
     private array $career;
 
-    public function __construct($nom,$prenom,$age,Country $country)
+    public function __construct($nom,$prenom,$dateBD,Country $country)
     {
         $this->_nom = $nom;
         $this->_prenom = $prenom;
-        $this->_age = $age;
+        $this->_dateBD = new DateTime($dateBD);
         $this->career=[];
         
   

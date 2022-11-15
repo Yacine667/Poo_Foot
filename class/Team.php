@@ -10,7 +10,8 @@ class Team
 
     public function __construct($nomTeam, Country $country)
     {
-        $this->nomTeam = $nomTeam;       
+        $this->nomTeam = $nomTeam; 
+        $this-> country = $country;      
         $country -> ajoutTeams($this);
         $this->career=[];
 
@@ -49,9 +50,16 @@ class Team
         return $this->getnomTeam();
     }
  
+    public function showTeam(){
+        echo  $this.'<br>';
+        echo  $this->getCountry().'<br>';
+        foreach ($this->career as $carer) {
+            echo $carer->getPlayer().'('; 
+            echo $carer->getDateBegin().')<br>';
+    }
 }
 
-
+}
 
 
 ?>

@@ -50,7 +50,12 @@ $pays3->showCountry();
 $pays4->showCountry();
 
 
-
+$equipe1->showTeam();
+$equipe2->showTeam();
+$equipe3->showTeam();
+$equipe4->showTeam();
+$equipe5->showTeam();
+$equipe6->showTeam();
 
 
 
