@@ -77,7 +77,24 @@ class Player
     }
     
 
-  
+    public function showPlayer()
+    {
+        echo $this->get_prenom().' ';
+        echo $this->get_nom().'<br>';
+        echo $this->getAge().'<br>';
+
+        usort($this->career, function($a, $b)
+        {     
+            return ($b->getDateBegin()) <=> ($a->getDateBegin());
+        });
+
+        
+        foreach ($this->career as $carer)
+        {            
+            echo $carer->getTeams().'('; 
+            echo $carer->getDateBegin().')<br>';
+        }
+    } 
 
 
 }

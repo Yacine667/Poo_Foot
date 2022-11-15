@@ -53,6 +53,12 @@ class Team
     public function showTeam(){
         echo  $this.'<br>';
         echo  $this->getCountry().'<br>';
+
+        usort($this->career, function($a, $b)
+        {     
+            return ($b->getDateBegin()) <=> ($a->getDateBegin());
+        });
+        
         foreach ($this->career as $carer) {
             echo $carer->getPlayer().'('; 
             echo $carer->getDateBegin().')<br>';

@@ -50,6 +50,7 @@ $pays3->showCountry();
 $pays4->showCountry();
 
 
+
 $equipe1->showTeam();
 $equipe2->showTeam();
 $equipe3->showTeam();
@@ -59,7 +60,14 @@ $equipe6->showTeam();
 
 
 
+$joueur1->showPlayer();
+$joueur2->showPlayer();
+$joueur3->showPlayer();
+$joueur4->showPlayer();
+
 ?>
+
+
     
 </body>
 </html>
